@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    h2 {
+      font-family: "Roboto", sans-serif;
+    }
+    label {
+      font-family: "Roboto", sans-serif;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h2>İletişim</h2>
+      <form>
+        <div class="wrapper">
+          <div class="box">
+            <input type="text" name="fname" id="fname" required />
+            <label for="fname">Ad</label>
+          </div>
+          <div class="box">
+            <input type="text" name="1name" id="1name" required />
+            <label for="1name">Soyad</label>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="box">
+            <input type="email" name="mail id="email" required />
+            <label for="email">E posta</label>
+          </div>
+          <div class="box">
+            <input type="text" name="tel" id="tel" required />
+            <label for="tel">Telefon</label>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="box">
+            <textarea id="mes" required></textarea>
+            <label for="mes">Mesajınızı buraya yazın</label>
+          </div>
+        </div>
+
+        <input type="submit" name="" value="Gönder..." />
+      </form>
+    </div>
+  </body>
+</html>
